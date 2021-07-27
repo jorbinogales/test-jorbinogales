@@ -59,10 +59,7 @@ console.log('Mensaje en el log del navegador');
 
 ## • ¿A qué lenguaje pertenece la instrucción “display”:”flex-inline”;?
 
-```
 Pertenece a CSS, se utiliza normalmente para que varias <li> de la etiqueta padre <ul> se alineen una del lado de la otra. Aunque el display es indiferente al tipo de la etiqueta.
-
-```
 
 ## • ¿Cómo se declara la variable USER en JavaScript y luego en PHP?
 
