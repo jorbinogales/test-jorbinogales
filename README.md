@@ -1,27 +1,116 @@
-# UserList
+# TEST DESARROLLADOR WEB JUNIOR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+## • ¿Cómo escribes un mensaje para que se muestre en un ALERT del navegador?
 
-## Development server
+```
+alert(' Hola mundo');
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## • ¿Cómo escribes la condición “Si variable no es igual a 1” en JavaScript y luego en PHP?
 
-## Code scaffolding
+### JAVASCRIPT:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+let variable = 2;
+if(variable != 1){
+    console.log('No es igual');
+}
+```
 
-## Build
+### PHP:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+<?php
+$variable = 2;
+if($variable != 1){
+   echo 'No es igual <hr>';
+}
+?>
+```
 
-## Running unit tests
+## • ¿Cómo escribes 7 veces “Hola” en JavaScript y luego en PHP?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### JAVASCRIPT:
 
-## Running end-to-end tests
+```
+let variable = 2;
+for (i = 0; i < 7; i++){
+    console.log('hola')
+}
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### PHP:
 
-## Further help
+```
+<?php
+for ($i = 0; $i < 7; $i++){
+    echo 'hola <hr>';
+}
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+?>
+```
+
+## • ¿Cómo escribes un mensaje para que se muestre en el log del navegador?
+
+```
+console.log('Mensaje en el log del navegador');
+
+```
+
+## • ¿A qué lenguaje pertenece la instrucción “display”:”flex-inline”;?
+
+```
+Pertenece a CSS, se utiliza normalmente para que varias <li> de la etiqueta padre <ul> se alineen una del lado de la otra. Aunque el display es indiferente al tipo de la etiqueta.
+
+```
+
+## • ¿Cómo se declara la variable USER en JavaScript y luego en PHP?
+
+### JAVASCRIPT:
+
+```
+var userVar = '';
+let userLet = '';
+const userConst = '';
+```
+
+### PHP:
+
+```
+<?php
+
+$userVar = '';
+
+?>
+```
+
+## • Crea una función que reciba como parámetro un número y retorne el triple de ese número en JavaScript y luego en PHP.
+
+### JAVASCRIPT:
+
+```
+const retornarNumero = (number) => {
+    return number * 3;
+}
+
+console.log(retornarNumero(5));
+```
+
+### PHP:
+
+```
+<?php
+
+class retornar{
+
+    public function retornarNumero($num) {
+        return $num*3;
+    }
+
+}
+
+$retornar = new retornar();
+
+echo $retornar->retornarNumero(5);
+?>
+```

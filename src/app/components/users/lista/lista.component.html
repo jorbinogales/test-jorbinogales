@@ -1,0 +1,33 @@
+<div class="table-responsive w-100">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Email</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Direccion</th>
+                <th scope="col">Creado en</th>
+                <th scope="col">Balance</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users, let i = index">
+                <th scope="row">{{ i }}</th>
+                <td>{{ user.first }}</td>
+                <td>{{ user.last }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.phone }}</td>
+                <td>{{ user.address }}</td>
+                <td>{{ user.created }}</td>
+                <td>{{ user.balance }}</td>
+                <td>
+                    <button class="btn btn-primary" [routerLink]="['/users', i]">Ver</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

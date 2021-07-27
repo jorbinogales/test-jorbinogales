@@ -1,0 +1,22 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">{{ user.email }}</h5>
+        <strong>Nombre: </strong> <span>{{ user.first }}</span>
+        <br>
+        <strong>Apellido: </strong> <span>{{ user.last }}</span>
+        <br>
+        <strong>Direccion: </strong> <span>{{ user.address }}</span>
+        <hr>
+        <strong class="text-success">Balance: </strong> <span>{{ user.balance }}</span>
+        <br>
+
+        <a [routerLink]="['users']" class="btn btn-primary d-block m-auto">Regresar</a>
+        
+    </div>
+
+    <div class="card-footer">
+        <small class="text-muted">{{ user.created }}</small>
+    </div>
+
+    
+</div>
